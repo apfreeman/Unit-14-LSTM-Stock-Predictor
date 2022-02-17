@@ -41,7 +41,7 @@ Use the above to answer the following:
 
 - **Which model has a lower loss?**
 
-**ANSWER:** As demonstrated below the Close price model had a lower loss then the FNG model. FNG - **0.14951150119304657** vs Close - **0.05688522011041641**
+    **ANSWER:** As demonstrated below the Close price model had a lower loss then the FNG model. FNG - **0.14951150119304657** vs Close - **0.05688522011041641**
 
 - FNG
 
