@@ -21,18 +21,18 @@ I have completed the following:
 
 - **FNG Model  - Example of Split, Scaled and Reshaped Data**
 
-![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Prepared_X_fng.PNG?raw=true)
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/Prepared_X_fng.PNG?raw=true)
 
 - **Close Model  - Example of Split, Scaled and Reshaped Data**
 
-![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/Prepared_X_close.PNG?raw=true)
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/Prepared_X_close.PNG?raw=true)
 
 
 ### Build and train custom LSTM RNNs
 
 - **Example - FNG Model Summary**
 
-![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/model_sum_fng.PNG?raw=true)
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/model_sum_fng.PNG?raw=true)
 
 
 Finally, use the testing data to evaluate each model and compare the performance.
@@ -59,15 +59,77 @@ Use the above to answer the following:
 
 - **FNG Model Plot**
 
-![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/plot_fng.PNG?raw=true)
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng.PNG?raw=true)
 
 - **Close Model Plot**
 
-![](https://github.com/apfreeman/unit13-challenge/blob/main/Images/plot_close.PNG?raw=true)
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close.PNG?raw=true)
 
 **ANSWER:**: As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
 
 - **Which window size works best for the model?**
 
+    **ANSWER:**: The FNG Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
+    - Batch size = 1  - 0.14951150119304657
+    - **Batch size = 2  - 0.10420552641153336** 
+    - Batch size = 3  - 0.1110898107290268 
+    - Batch size = 5  - 0.13134555518627167 
+    - Batch size = 10  - 0.1320107877254486
+    - Batch size = 20  - 0.1487315595149994 
+
+    The window size that works best for the FNG data model is 2.
+
+    **ANSWER:**: The Close Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
+    - Batch size = 1  - 0.05688522011041641
+    - Batch size = 2  - 0.02556442655622959 
+    - Batch size = 3  - 0.018078893423080444 
+    - Batch size = 5  - 0.00849858857691288 
+    - **Batch size = 10  - 0.006939881481230259**
+    - Batch size = 20  - 0.00687668239697814 
+
+    The window size that works best for the FNG data model is 10, while it is demonstrated that a window size of 20 is slightly better anything after 10 yelds diminishing returns and does not reoresent a significant imporovement. As such 10 would be a good choice.
+
+## FNG Evaluation and Plots
+
+- **Batch size = 2**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng_batchsize_2.PNG?raw=true)
+
+- **Batch size = 3**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng_batchsize_3.PNG?raw=true)
+
+- **Batch size = 5**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng_batchsize_5.PNG?raw=true)
+
+- **Batch size = 10**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng_batchsize_10.PNG?raw=true)
+
+- **Batch size = 20**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng_batchsize_20.PNG?raw=true)
 
 
+## Close price Evaluation and Plots
+
+- **Batch size = 2**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_batchsize_2.PNG?raw=true)
+
+- **Batch size = 3**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_batchsize_3.PNG?raw=true)
+
+- **Batch size = 5**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_batchsize_5.PNG?raw=true)
+
+- **Batch size = 10**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_batchsize_10.PNG?raw=true)
+
+- **Batch size = 20**
+
+![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_batchsize_20.PNG?raw=true)
