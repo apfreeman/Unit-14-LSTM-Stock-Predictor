@@ -69,7 +69,7 @@ Use the above to answer the following:
 
 - **Which window size works best for the model?**
 
-    **ANSWER:**: The FNG Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
+    **ANSWER:** The FNG Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
     - Batch size = 1  - 0.14951150119304657
     - **Batch size = 2  - 0.10420552641153336** 
     - Batch size = 3  - 0.1110898107290268 
