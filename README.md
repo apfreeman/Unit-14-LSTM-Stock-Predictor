@@ -41,7 +41,7 @@ Use the above to answer the following:
 
 - **Which model has a lower loss?**
 
-**ANSWER:**: As demonstrated below the Close price model had a lower loss then the FNG model. FNG - **0.14951150119304657** vs Close - **0.05688522011041641**
+**ANSWER:** As demonstrated below the Close price model had a lower loss then the FNG model. FNG - **0.14951150119304657** vs Close - **0.05688522011041641**
 
 - FNG
 
@@ -65,7 +65,7 @@ Use the above to answer the following:
 
 ![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close.PNG?raw=true)
 
-**ANSWER:**: As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
+**ANSWER:** As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
 
 - **Which window size works best for the model?**
 
@@ -79,7 +79,7 @@ Use the above to answer the following:
 
     The window size that works best for the FNG data model is 2.
 
-    **ANSWER:**: The Close Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
+    **ANSWER:** The Close Model was fit with batch sizes of 2,3,5,10 and 20 to evaluate which is the best window size for the model. All outputs are below.   
     - Batch size = 1  - 0.05688522011041641
     - Batch size = 2  - 0.02556442655622959 
     - Batch size = 3  - 0.018078893423080444 
