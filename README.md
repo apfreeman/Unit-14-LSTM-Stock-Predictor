@@ -87,7 +87,7 @@ Use the above to answer the following:
     - **Batch size = 10  - 0.006939881481230259**
     - Batch size = 20  - 0.00687668239697814 
 
-    The window size that works best for the FNG data model is 10, while it is demonstrated that a window size of 20 is slightly better anything after 10 yelds diminishing returns and does not reoresent a significant imporovement. As such 10 would be a good choice.
+    The window size that works best for the FNG data model is 10, while it is demonstrated that a window size of 20 is slightly better anything after 10 yelds diminishing returns and does not represent a significant improvement. As such 10 would be a good choice.
 
 ## FNG Evaluation and Plots
 
