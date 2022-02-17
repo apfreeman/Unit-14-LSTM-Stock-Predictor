@@ -57,13 +57,13 @@ Use the above to answer the following:
 
 - **Which model tracks the actual values better over time?**
 
-- **FNG Model Plot**
+    - **FNG Model Plot**
 
-![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng.PNG?raw=true)
+    ![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_fng.PNG?raw=true)
 
-- **Close Model Plot**
+    - **Close Model Plot**
 
-![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close.PNG?raw=true)
+    ![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close.PNG?raw=true)
 
 **ANSWER:** As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
 
