@@ -65,7 +65,7 @@ Use the above to answer the following:
 
     ![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close.PNG?raw=true)
 
-**ANSWER:** As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
+    **ANSWER:** As demonstrated by the FNG vs Close plots, the Close model tracks the actual values better over time. 
 
 - **Which window size works best for the model?**
 
