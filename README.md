@@ -87,7 +87,7 @@ Use the above to answer the following:
     - **Batch size = 10  - 0.006939881481230259**
     - Batch size = 20  - 0.00687668239697814 
 
-    The window size that works best for the FNG data model is 10, while it is demonstrated that a window size of 20 is slightly better anything after 10 yelds diminishing returns and does not represent a significant improvement. As such 10 would be a good choice.
+    The window size that works best for the FNG data model is 10, while it is demonstrated that a window size of 20 is slightly better anything after 10 yields diminishing returns and does not represent a significant improvement. As such 10 would be a good choice.
 
 ## FNG Evaluation and Plots experimenting with batch and window sizes
 
@@ -125,10 +125,10 @@ The FNG model and predictions overall are not great for predicting bitcoin price
 
 Analysing the output, the best batch size was determined to be 2 as this produced the lowest loss score. 
 
-On analysing the window size, lowering from 10 to 5 did not yield a significant imporvement. Lowering the window size further to 1 produced a slight imporvement in the loss score but approached over fitting.  
+On analysing the window size, lowering from 10 to 5 did not yield a significant improvement. Lowering the window size further to 1 produced a slight improvement in the loss score but approached over fitting.  
 
 
-## Close price Evaluation Eand Plots experimenting with batch and window sizes
+## Close price Evaluation and Plots experimenting with batch and window sizes
 
 - **Batch size = 2**
 
@@ -158,10 +158,10 @@ On analysing the window size, lowering from 10 to 5 did not yield a significant 
 
 ![](https://github.com/apfreeman/Unit-14-LSTM-Stock-Predictor/blob/main/Images/plot_close_windowsize_5.PNG?raw=true)
 
-### Summary of experiements with the batch size and window size
+### Summary of experiments with the batch size and window size
 
 The Close model and predictions overall are fairly good for predicting bitcoin price movements using the close price data. 
 
-Analysing the output, the best batch size was determined to be 10 as this produced a good loss score. Any increase in batch size futher did not result in significant improvement. 
+Analysing the output, the best batch size was determined to be 10 as this produced a good loss score. Any increase in batch size further did not result in significant improvement. 
 
-On analysing the window size, lowering from 10 to 5 did not yield a significant imporvement. Lowering the window size further to 1 produced a significant imporvement in the loss score but approached over fitting.  
+On analysing the window size, lowering from 10 to 5 did not yield a significant improvement. Lowering the window size further to 1 produced a significant improvement in the loss score but approached over fitting.  
